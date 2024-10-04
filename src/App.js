@@ -1,25 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Heropanel from './components/heropanel'
+import About from './components/about'
+import Portfolio from './components/portfolio'
+import Contact from './components/Contact'
+// import Navbar from './components/navbar'
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css"
+></link>
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Heropanel />
+      <About />
+      <Portfolio />
+      <Contact />
+      {/* <TodoList /> */}
     </div>
+  )
+}
+
+ function TodoList() {
+  return (
+    <>
+      <h1>Hedy Lamarr's Todos</h1>
+      <img
+        src="https://i.imgur.com/yXOvdOSs.jpg"
+        alt="Hedy Lamarr"
+        className="photo"
+      />
+      <ul>
+        <li>Invent new traffic lights</li>
+        <li>Rehearse a movie scene</li>
+        <li>Improve spectrum technology</li>
+      </ul>
+    </>
   );
 }
 
-export default App;
+export default App
