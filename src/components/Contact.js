@@ -12,15 +12,6 @@ const Contact = () => {
               <div className="columns is-multiline">
                   <div className="column is-12-widescreen is-12-desktop is-12-tablet is-12-mobile">
                       <div className="contact-list">
-                          <div className="contact-icons orangeBackground">
-                              <i class="fa-solid fa-location-dot orangeText contact-icon"></i>
-                          </div>
-                          <div className="contact-content">
-                              <h3>Address</h3>
-                              <p className='p'>New jawahar nagar, Kota</p>
-                          </div>
-                      </div>
-                      <div className="contact-list">
                           <div className="contact-icons greenBackground">
                               <i class="fa-solid fa-envelope contact-icon greenText"></i>
                           </div>
