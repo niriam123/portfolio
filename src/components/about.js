@@ -7,7 +7,7 @@ const About = () => {
             <div className="columns is-multiline is-vcentered">
                 <div className="column is-6-widescreen is-6-desktop is-12-tablet is-12-mobile">
                     <figure>
-                        <img className='' src='images/about_us_pic.svg' width={650} height={600}></img>
+                        <img className='' src={`${process.env.PUBLIC_URL}/images/about_us_pic.svg`}  width={650} height={600}></img>
                     </figure>
                 </div>
                 <div className="column is-6-widescreen is-6-desktop is-12-tablet is-12-mobile">
